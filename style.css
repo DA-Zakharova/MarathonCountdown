@@ -1,0 +1,105 @@
+body {
+    background-image: url("NewYork.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #521C0D;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bigBlock {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    border: 1px solid #521C0D;
+    border-radius: 3px;
+}
+
+.smallBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: #FFD6BA;
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+}
+
+.newHeading {
+    text-transform: uppercase;
+    color: #FFE99A;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 55px;
+}
+
+.days, .hours, .minutes, .seconds {
+    color: #FFD6BA;
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.btn {
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: #FFD6BA;
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+}
+
+
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 32px;
+        color: #533B4D;
+    }
+
+
+    body {
+        background-image: url("NewYorkMob.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bigBlock {
+        background-color: rgba(110, 38, 42, 0.6);
+        width: 200px;
+        height: 250px;
+        margin-top: 30px;
+    }
+}
