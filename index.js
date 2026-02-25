@@ -1,5 +1,5 @@
 function marathonCountDown() {
-    const marathonDate = new Date("November 2, 2025 09:00");
+    const marathonDate = new Date("November 1, 2026 09:00");
     const userDate = new Date();
     const diff = marathonDate - userDate;
 
